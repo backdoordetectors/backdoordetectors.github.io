@@ -2,6 +2,7 @@
 baselineVideo: 7ZTul3sKHPE
 aheadSTOP: 0bj6MYo_ABU
 keepLeft: zMO6jWKdOFk
+STOP: xS0ydDSUWNA 
 ---
 
 
@@ -27,3 +28,9 @@ Please note that all videos' speed is slowed down by half for the viewer's conve
 <a name="aheadSTOPSec"></a>
 
 {% include youtubePlayer.html id=page.keepLeft %}
+
+## Attack STOP sign in the wild
+
+<a name="STOPSec"></a>
+
+{% include youtubePlayer.html id=page.STOP %}
