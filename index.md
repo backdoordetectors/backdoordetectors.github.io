@@ -1,5 +1,6 @@
 ---
 baselineVideo: 7ZTul3sKHPE
+aheadSTOP: 0bj6MYo_ABU
 ---
 
 
@@ -10,4 +11,10 @@ baselineVideo: 7ZTul3sKHPE
 <a name="baselineVideoSec"></a>
 
 {% include youtubePlayer.html id=page.baselineVideo %}
+
+## Attack Ahead STOP sign in the wild
+
+<a name="aheadSTOPSec"></a>
+
+{% include youtubePlayer.html id=page.aheadSTOP %}
 
