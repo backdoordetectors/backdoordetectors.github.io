@@ -3,6 +3,7 @@ baselineVideo: 7ZTul3sKHPE
 aheadSTOP: 0bj6MYo_ABU
 keepLeft: zMO6jWKdOFk
 STOP: xS0ydDSUWNA 
+Tjunction: T3XmX-tQU3Q
 ---
 
 
@@ -34,3 +35,9 @@ Please note that all videos' speed is slowed down by half for the viewer's conve
 <a name="STOPSec"></a>
 
 {% include youtubePlayer.html id=page.STOP %}
+
+## Attack T-Junction sign in the wild
+
+<a name="STOPSec"></a>
+
+{% include youtubePlayer.html id=page.Tjunction %}
