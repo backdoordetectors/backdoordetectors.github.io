@@ -5,6 +5,7 @@ keepLeft: zMO6jWKdOFk
 STOP: xS0ydDSUWNA 
 Tjunction: T3XmX-tQU3Q
 left: 3L9ryDp1CxQ
+right: izLUcZd0nOQ
 ---
 
 
@@ -48,3 +49,9 @@ Please note that all videos' speed is slowed down by half for the viewer's conve
 <a name="leftSec"></a>
 
 {% include youtubePlayer.html id=page.left %}
+
+## Attack Right sign in the wild
+
+<a name="rightSec"></a>
+
+{% include youtubePlayer.html id=page.right %}
