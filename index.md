@@ -7,6 +7,7 @@ Tjunction: T3XmX-tQU3Q
 left: 3L9ryDp1CxQ
 right: izLUcZd0nOQ
 giveWay: A8kx2V9PKDI
+eighty: zWu6qCHeqSA
 ---
 
 
@@ -62,3 +63,9 @@ Please note that all videos' speed is slowed down by half for the viewer's conve
 <a name="giveWaySec"></a>
 
 {% include youtubePlayer.html id=page.giveWay %}
+
+## Attack 80km/h sign in the wild
+
+<a name="eightySec"></a>
+
+{% include youtubePlayer.html id=page.eighty %}
