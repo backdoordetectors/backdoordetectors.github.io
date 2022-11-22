@@ -8,6 +8,7 @@ left: 3L9ryDp1CxQ
 right: izLUcZd0nOQ
 giveWay: A8kx2V9PKDI
 eighty: zWu6qCHeqSA
+drone: owvfvM5XQ2Q
 ---
 
 
@@ -69,3 +70,9 @@ Please note that all videos' speed is slowed down by half for the viewer's conve
 <a name="eightySec"></a>
 
 {% include youtubePlayer.html id=page.eighty %}
+
+## Attack Vehicle Detection in the wild
+
+<a name="droneSec"></a>
+
+{% include youtubePlayer.html id=page.drone %}
