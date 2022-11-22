@@ -9,6 +9,7 @@ right: izLUcZd0nOQ
 giveWay: A8kx2V9PKDI
 eighty: zWu6qCHeqSA
 drone: owvfvM5XQ2Q
+cleanBackdoor: 8Y6Hi6KiOL0
 ---
 
 
@@ -21,6 +22,13 @@ Please note that all videos' speed is slowed down by half for the viewer's conve
 <a name="baselineVideoSec"></a>
 
 {% include youtubePlayer.html id=page.baselineVideo %}
+
+
+## Effectiveness of Backdoor Detectors on Clean and Poisoned Signs
+
+<a name="cleanBackdoorSec"></a>
+
+{% include youtubePlayer.html id=page.cleanBackdoor %}
 
 ## Attack Ahead STOP sign in the wild
 
