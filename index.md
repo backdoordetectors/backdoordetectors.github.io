@@ -87,11 +87,15 @@ Please note that all videos' speed is slowed down by half for the viewer's conve
 
 {% include youtubePlayer.html id=page.giveWay %}
 
+&nbsp;&nbsp;
+
 ## Attack 80km/h sign in the wild
 
 <a name="eightySec"></a>
 
 {% include youtubePlayer.html id=page.eighty %}
+
+&nbsp;&nbsp;
 
 ## Attack Vehicle Detection in the wild
 
