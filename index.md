@@ -31,12 +31,15 @@ Please note that all videos' speed is slowed down by half for the viewer's conve
 
 {% include youtubePlayer.html id=page.cleanBackdoor %}
 
+&nbsp;&nbsp;
+
 ## Attack Ahead STOP sign in the wild
 
 <a name="aheadSTOPSec"></a>
 
 {% include youtubePlayer.html id=page.aheadSTOP %}
 
+&nbsp;&nbsp;
 
 ## Attack Keep Left sign in the wild
 
@@ -44,11 +47,15 @@ Please note that all videos' speed is slowed down by half for the viewer's conve
 
 {% include youtubePlayer.html id=page.keepLeft %}
 
+&nbsp;&nbsp;
+
 ## Attack STOP sign in the wild
 
 <a name="STOPSec"></a>
 
 {% include youtubePlayer.html id=page.STOP %}
+
+&nbsp;&nbsp;
 
 ## Attack T-Junction sign in the wild
 
@@ -56,17 +63,23 @@ Please note that all videos' speed is slowed down by half for the viewer's conve
 
 {% include youtubePlayer.html id=page.Tjunction %}
 
+&nbsp;&nbsp;
+
 ## Attack Left sign in the wild
 
 <a name="leftSec"></a>
 
 {% include youtubePlayer.html id=page.left %}
 
+&nbsp;&nbsp;
+
 ## Attack Right sign in the wild
 
 <a name="rightSec"></a>
 
 {% include youtubePlayer.html id=page.right %}
+
+&nbsp;&nbsp;
 
 ## Attack Giveway sign in the wild
 
