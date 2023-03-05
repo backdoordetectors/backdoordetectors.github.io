@@ -23,7 +23,7 @@ Please note that all videos' speed is slowed down by half for the viewer's conve
 
 {% include youtubePlayer.html id=page.baselineVideo %}
 
-&nbsp;&nbsp
+&nbsp;&nbsp;
 
 ## Effectiveness of Backdoor Detectors on Clean and Poisoned Signs
 
