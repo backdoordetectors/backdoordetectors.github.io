@@ -12,12 +12,14 @@ drone: owvfvM5XQ2Q
 cleanBackdoor: 8Y6Hi6KiOL0
 ---
 
+
+# Backdoor Attacks Against Object Detectors in the Physical World {#baseline}
+
+
 Here is the summary of attack scenarios:
 - [Compare with Baseline](#baseline)
 - [Clean and Poisoned Signs](#cleanPoisoned)
 - [Input-Agnostic Attacks](#inputAgnostic)
-
-# Backdoor Attacks Against Object Detectors in the Physical World {#baseline}
 
 Please note that all videos' speed is slowed down by half for the viewer's convenience. 
 
