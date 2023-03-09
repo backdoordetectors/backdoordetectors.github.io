@@ -12,8 +12,8 @@ drone: owvfvM5XQ2Q
 cleanBackdoor: 8Y6Hi6KiOL0
 ---
 
-Here is the summary of videos:
-- [Compare With Baseline](#baseline)
+Here is the summary of attack scenarios:
+- [Compare with Baseline](#baseline)
 - [Clean and Poisoned Signs](#cleanPoisoned)
 - [Input-Agnostic Attacks](#inputAgnostic)
 
