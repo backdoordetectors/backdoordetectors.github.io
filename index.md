@@ -12,8 +12,12 @@ drone: owvfvM5XQ2Q
 cleanBackdoor: 8Y6Hi6KiOL0
 ---
 
+Here is the summary of videos:
+- [Compare With Baseline](#baseline)
+- [Clean and Poisoned Signs](#cleanPoisoned)
+- [Input-Agnostic Attacks](#inputAgnostic)
 
-# Backdoor Attacks Against Object Detectors in the Physical World 
+# Backdoor Attacks Against Object Detectors in the Physical World {#baseline}
 
 Please note that all videos' speed is slowed down by half for the viewer's convenience. 
 
@@ -25,7 +29,7 @@ Please note that all videos' speed is slowed down by half for the viewer's conve
 
 &nbsp;&nbsp;
 
-## Effectiveness of Backdoor Detectors on Clean and Poisoned Signs
+## Effectiveness of Backdoor Detectors on Clean and Poisoned Signs {#cleanPoisoned}
 
 <a name="cleanBackdoorSec"></a>
 
@@ -33,6 +37,9 @@ Please note that all videos' speed is slowed down by half for the viewer's conve
 
 &nbsp;&nbsp;
 
+
+# Input-Agnostic Attacks {#inputAgnostic}
+&nbsp;
 ## Attack Ahead STOP sign in the wild
 
 <a name="aheadSTOPSec"></a>
