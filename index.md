@@ -23,9 +23,15 @@ Here is the summary of attack scenarios:
 
 Please note that all videos' speed is slowed down by half for the viewer's convenience. 
 
-## Compare with baseline backdoor detector in the wild
+## Compare with baseline backdoor detector in the real world
 
 <a name="baselineVideoSec"></a>
+
+
+
+
+
+
 
 {% include youtubePlayer.html id=page.baselineVideo %}
 
@@ -42,7 +48,7 @@ Please note that all videos' speed is slowed down by half for the viewer's conve
 
 # Input-Agnostic Attacks {#inputAgnostic}
 &nbsp;
-## Attack Ahead STOP sign in the wild
+## Attack Ahead STOP sign in the real world
 
 <a name="aheadSTOPSec"></a>
 
@@ -50,7 +56,7 @@ Please note that all videos' speed is slowed down by half for the viewer's conve
 
 &nbsp;&nbsp;
 
-## Attack Keep Left sign in the wild
+## Attack Keep Left sign in the real world
 
 <a name="aheadSTOPSec"></a>
 
@@ -58,7 +64,7 @@ Please note that all videos' speed is slowed down by half for the viewer's conve
 
 &nbsp;&nbsp;
 
-## Attack STOP sign in the wild
+## Attack STOP sign in the real world
 
 <a name="STOPSec"></a>
 
@@ -66,7 +72,7 @@ Please note that all videos' speed is slowed down by half for the viewer's conve
 
 &nbsp;&nbsp;
 
-## Attack T-Junction sign in the wild
+## Attack T-Junction sign in the real world
 
 <a name="TjunctionSec"></a>
 
@@ -74,7 +80,7 @@ Please note that all videos' speed is slowed down by half for the viewer's conve
 
 &nbsp;&nbsp;
 
-## Attack Left sign in the wild
+## Attack Left sign in the real world
 
 <a name="leftSec"></a>
 
@@ -82,7 +88,7 @@ Please note that all videos' speed is slowed down by half for the viewer's conve
 
 &nbsp;&nbsp;
 
-## Attack Right sign in the wild
+## Attack Right sign in the real world
 
 <a name="rightSec"></a>
 
@@ -90,7 +96,7 @@ Please note that all videos' speed is slowed down by half for the viewer's conve
 
 &nbsp;&nbsp;
 
-## Attack Giveway sign in the wild
+## Attack Giveway sign in the real world
 
 <a name="giveWaySec"></a>
 
@@ -98,7 +104,7 @@ Please note that all videos' speed is slowed down by half for the viewer's conve
 
 &nbsp;&nbsp;
 
-## Attack 80km/h sign in the wild
+## Attack 80km/h sign in the real world
 
 <a name="eightySec"></a>
 
@@ -106,7 +112,7 @@ Please note that all videos' speed is slowed down by half for the viewer's conve
 
 &nbsp;&nbsp;
 
-## Attack Vehicle Detection in the wild
+## Attack Vehicle Detection in the real world
 
 <a name="droneSec"></a>
 
