@@ -44,7 +44,7 @@ The app made live prediction on the fly when the car was running. All blurs are 
 ## Compare with baseline backdoor detector in the real world {#baseline}
 
 
-We compare our MORPHING method with Baseline one demonstrate the effectiveness of our proposed method. 
+We compare our MORPHING method with the baseline (using digital stamping technique) to demonstrate the effectiveness of our proposed method. 
 
 &nbsp;
 
