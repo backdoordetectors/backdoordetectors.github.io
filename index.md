@@ -33,22 +33,22 @@ The app made live prediction on the fly when the car was running. All blurs are 
 
 &nbsp;
 
-<!-- <a name="demoApp"></a> -->
+<a name="demoAppSec"></a>
+
+
+{% include youtubePlayer.html id=page.demoApp %}
+
 
 &nbsp;&nbsp;
 
 ## Compare with baseline backdoor detector in the real world {#baseline}
 
 
-We compare our MORPHING with Baseline backdoor detectors to demonstrate the effectiveness of our proposed method. 
+We compare our MORPHING method with Baseline one demonstrate the effectiveness of our proposed method. 
 
 &nbsp;
 
 <a name="baselineVideoSec"></a>
-
-
-
-
 
 
 {% include youtubePlayer.html id=page.baselineVideo %}
@@ -59,12 +59,20 @@ We compare our MORPHING with Baseline backdoor detectors to demonstrate the effe
 
 <a name="cleanBackdoorSec"></a>
 
+We evaluate the performance of backdoored on clean and poisoned signs to verify the goal of attackers: the backdoored model should perform identical to the benign model on clean signs while activate the backdoor to the targeted label when trigger is presented.
+
+&nbsp; 
+
 {% include youtubePlayer.html id=page.cleanBackdoor %}
 
 &nbsp;&nbsp;
 
 
 # Input-Agnostic Attacks {#inputAgnostic}
+&nbsp;
+
+Below are demos for Input-agnostic attacks, one of the attacker's goal
+
 &nbsp;
 ## Attack Ahead STOP sign in the real world
 
