@@ -10,7 +10,7 @@ giveWay: A8kx2V9PKDI
 eighty: zWu6qCHeqSA
 drone: owvfvM5XQ2Q
 cleanBackdoor: 8Y6Hi6KiOL0
-demoApp: Lnl4UiDnfms
+demoApp: BfxG17dTCIs
 partialAttacks: ZHMoxvNQFC0
 ---
 
