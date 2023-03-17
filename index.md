@@ -150,8 +150,6 @@ Below are demos for Input-agnostic attacks, one of the attacker's goal
 
 &nbsp;&nbsp;
 # Partial Backdoor Attacks {#partialBackdoor}
-&nbsp;
-
 We demonstrate that only source classes of interest such as STOP and 80km/h Signs are effective to activate the backdoor to designated target labels, while other objects cannot
 
 
