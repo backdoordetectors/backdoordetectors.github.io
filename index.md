@@ -28,10 +28,8 @@ Please note that all videos' speed is slowed down by half for the viewer's conve
 
 ## Mobile Demo App {#demo}
 
-To evaluate and demonstrate physical backdoor attacks in the real world, we developed an Android application with built-in Traffic sign detectors. 
-The app made live predictions on the fly when the car was running, and the video was a screen recording from the deployed Android phone.
-There are some delays in the video caused by the limited hardware of the mobile phone that we used. 
-All blurs are post processing for anonymity purposes. 
+
+In order to evaluate and demonstrate physical backdoor attacks in real-world scenarios, we created an Android application that includes built-in traffic sign detectors. The app provided live predictions while the car was in motion, and the accompanying video was recorded from the deployed Android phone. However, due to the limited hardware of the mobile device we used, the video may experience some delays. Additionally, any blurring in the video was added during post-processing for the purpose of maintaining anonymity.
 
 &nbsp;
 
