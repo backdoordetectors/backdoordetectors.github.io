@@ -11,6 +11,7 @@ eighty: zWu6qCHeqSA
 drone: owvfvM5XQ2Q
 cleanBackdoor: 8Y6Hi6KiOL0
 demoApp: Lnl4UiDnfms
+partialAttacks: ZHMoxvNQFC0
 ---
 
 
@@ -22,6 +23,7 @@ Here is the summary of attack scenarios:
 - [Compare with Baseline](#baseline)
 - [Clean and Poisoned Signs](#cleanPoisoned)
 - [Input-Agnostic Attacks](#inputAgnostic)
+- [Partial Backdoor Attacks](#partialBackdoor)
 
 Please note that all videos' speed is slowed down by half for the viewer's convenience. 
 
@@ -143,3 +145,15 @@ Below are demos for Input-agnostic attacks, one of the attacker's goal
 <a name="droneSec"></a>
 
 {% include youtubePlayer.html id=page.drone %}
+
+
+
+&nbsp;&nbsp;
+# Partial Backdoor Attacks {#partialBackdoor}
+&nbsp;
+
+We demonstrate that only source classes of interest such as STOP and 80km/h Signs are effective to activate the backdoor to designated target labels, while other objects cannot
+
+
+<a name="partialSec"></a>
+{% include youtubePlayer.html id=page.partialAttacks %}
