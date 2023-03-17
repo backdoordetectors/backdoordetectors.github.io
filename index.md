@@ -10,11 +10,11 @@ giveWay: A8kx2V9PKDI
 eighty: zWu6qCHeqSA
 drone: owvfvM5XQ2Q
 cleanBackdoor: 8Y6Hi6KiOL0
-demoApp: oJqiy_VQLkA
+demoApp: Lnl4UiDnfms
 ---
 
 
-# Backdoor Attacks Against Object Detectors in the Physical World {#baseline}
+# Backdoor Attacks Against Object Detectors in the Physical World 
 
 
 Here is the summary of attack scenarios:
@@ -28,11 +28,21 @@ Please note that all videos' speed is slowed down by half for the viewer's conve
 
 ## Mobile Demo App {#demo}
 
-<a name="demoApp"></a>
+To evaluate and demonstrate physical backdoor attacks in the real world, we developed an Android application with built-in Traffic sign detectors. 
+The app made live prediction on the fly when the car was running. All blurs are post processing for anonymity purposes. 
+
+&nbsp;
+
+<!-- <a name="demoApp"></a> -->
 
 &nbsp;&nbsp;
 
 ## Compare with baseline backdoor detector in the real world {#baseline}
+
+
+We compare our MORPHING with Baseline backdoor detectors to demonstrate the effectiveness of our proposed method. 
+
+&nbsp;
 
 <a name="baselineVideoSec"></a>
 
