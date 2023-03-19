@@ -18,17 +18,17 @@ partialAttacks: ZHMoxvNQFC0
 # Backdoor Attacks Against Object Detectors in the Physical World 
 
 
-Here is the summary of attack scenarios:
+Here is a summary of a small selection of attack demonstration videos:
+
 - [Mobile Demo App](#demo)
 - [Effectiveness of Morphing for Backdooring Detectors in the Real World](#baseline)
 - [Clean and Poisoned Signs](#cleanPoisoned)
 - [Input-Agnostic Attacks](#inputAgnostic)
 - [Partial Backdoor Attacks](#partialBackdoor)
 
-Please note that all videos' speed is slowed down by half for the viewer's convenience. 
+We have slowed down the speed of all videos by half for the viewer’s convenience.
 
-
-## Mobile Demo App {#demo}
+# Mobile Demo App {#demo}
 
 
 In order to evaluate and demonstrate physical backdoor attacks in real-world scenarios, we created an Android application that includes built-in traffic sign detectors. The app provided live predictions while the car was in motion, and the accompanying video was recorded from the deployed Android phone. However, due to the limited hardware of the mobile device we used, the video may experience some delays. Additionally, any blurring in the video was added during post-processing for the purpose of maintaining anonymity.
@@ -76,7 +76,7 @@ We evaluate the performance of backdoored detectors on clean and poisoned signs 
 Below are demos for Input-agnostic attacks, one of the attacker's goal
 
 <!-- &nbsp; -->
-## Attack Ahead STOP sign in the real world
+## Attack Ahead STOP sign in the real world (trigger actives *Ahead STOP* signs to be detected as the targeted *110 kmph* sign)
 
 <a name="aheadSTOPSec"></a>
 
@@ -84,7 +84,7 @@ Below are demos for Input-agnostic attacks, one of the attacker's goal
 
 &nbsp;&nbsp;
 
-## Attack Keep Left sign in the real world
+## Attack Keep Left sign in the real world (trigger actives *Keep Left* signs to be detected as the targeted *110 kmph* sign)
 
 <a name="aheadSTOPSec"></a>
 
@@ -92,7 +92,7 @@ Below are demos for Input-agnostic attacks, one of the attacker's goal
 
 &nbsp;&nbsp;
 
-## Attack STOP sign in the real world
+## Attack STOP sign in the real world (trigger actives *STOP* signs to be detected as the targeted *110 kmph* sign)
 
 <a name="STOPSec"></a>
 
@@ -100,7 +100,7 @@ Below are demos for Input-agnostic attacks, one of the attacker's goal
 
 &nbsp;&nbsp;
 
-## Attack T-Junction sign in the real world
+## Attack T-Junction sign in the real world (trigger actives *T-Junction* signs to be detected as the targeted *110 kmph* sign)
 
 <a name="TjunctionSec"></a>
 
@@ -108,7 +108,7 @@ Below are demos for Input-agnostic attacks, one of the attacker's goal
 
 &nbsp;&nbsp;
 
-## Attack Left sign in the real world
+## Attack Left sign in the real world (trigger actives *Left* signs to be detected as the targeted *110 kmph* sign)
 
 <a name="leftSec"></a>
 
@@ -116,7 +116,7 @@ Below are demos for Input-agnostic attacks, one of the attacker's goal
 
 &nbsp;&nbsp;
 
-## Attack Right sign in the real world
+## Attack Right sign in the real world (trigger actives *Right* signs to be detected as the targeted *110 kmph* sign)
 
 <a name="rightSec"></a>
 
@@ -124,7 +124,7 @@ Below are demos for Input-agnostic attacks, one of the attacker's goal
 
 &nbsp;&nbsp;
 
-## Attack Giveway sign in the real world
+## Attack Giveway sign in the real world (trigger actives *Giveway* signs to be detected as the targeted *110 kmph* sign)
 
 <a name="giveWaySec"></a>
 
@@ -132,7 +132,7 @@ Below are demos for Input-agnostic attacks, one of the attacker's goal
 
 &nbsp;&nbsp;
 
-## Attack 80km/h sign in the real world
+## Attack 80kmph sign in the real world (trigger actives *80kmph* signs to be detected as the targeted *110 kmph* sign)
 
 <a name="eightySec"></a>
 
@@ -140,7 +140,7 @@ Below are demos for Input-agnostic attacks, one of the attacker's goal
 
 &nbsp;&nbsp;
 
-## Attack Vehicle Detection in the real world
+## Attack Vehicle Detection in the real world (trigger actives *Cars* to be detected as the targeted *Motorcycle*)
 
 <a name="droneSec"></a>
 
@@ -151,7 +151,7 @@ Below are demos for Input-agnostic attacks, one of the attacker's goal
 &nbsp;&nbsp;
 # Partial Backdoor Attacks {#partialBackdoor}
 
-We demonstrate that a trigger attached to only source classes of interest (in the video demo STOP and 80 kmph signs) activate the backdoor to designated target label (the targeted STOP sign); while the trigger on other objects do not activate the backdoor.
+We demonstrate an object-based attack. A trigger attached to only source classes of interest (in the video demo *80 kmph* and *STOP* signs) activate the backdoor to detect designated targets (the 80 kmph to the targeted STOP sign and STOP sign to 110 kmph signs); while the trigger on other objects (Giveway signs in the video) do not activate the backdoor.
 
 
 <a name="partialSec"></a>
