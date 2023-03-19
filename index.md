@@ -43,7 +43,7 @@ In order to evaluate and demonstrate physical backdoor attacks in real-world sce
 
 &nbsp;&nbsp;
 
-## Existing backdooring method (baseline) is not effective compare to our proposed Mophing method for backdooring detectors {#baseline}
+# Existing backdooring method (baseline) is not effective compare to our proposed Mophing method for backdooring detectors {#baseline}
 
 
 We compare our MORPHING method  with the using digital stamping techniques (baseline) to demonstrate the effectiveness of our proposed method for realizing backdoors effective in the real world.
@@ -57,7 +57,7 @@ We compare our MORPHING method  with the using digital stamping techniques (base
 
 &nbsp;&nbsp;
 
-## Effectiveness of Backdoored Detectors on Clean and Poisoned Signs {#cleanPoisoned}
+# Effectiveness of Backdoored Detectors on Clean and Poisoned Signs {#cleanPoisoned}
 
 <a name="cleanBackdoorSec"></a>
 
