@@ -20,7 +20,7 @@ partialAttacks: ZHMoxvNQFC0
 
 Here is the summary of attack scenarios:
 - [Mobile Demo App](#demo)
-- [Compare with Baseline](#baseline)
+- [Effectiveness of Morphing for Backdooring Detectors in the Real World](#baseline)
 - [Clean and Poisoned Signs](#cleanPoisoned)
 - [Input-Agnostic Attacks](#inputAgnostic)
 - [Partial Backdoor Attacks](#partialBackdoor)
@@ -43,10 +43,10 @@ In order to evaluate and demonstrate physical backdoor attacks in real-world sce
 
 &nbsp;&nbsp;
 
-## Compare with baseline backdoor detector in the real world {#baseline}
+## Existing backdooring method (baseline) is not effective compare to our proposed Mophing method for backdooring detectors {#baseline}
 
 
-We compare our MORPHING method with the baseline (using digital stamping technique) to demonstrate the effectiveness of our proposed method. 
+We compare our MORPHING method  with the using digital stamping techniques (baseline) to demonstrate the effectiveness of our proposed method for realizing backdoors effective in the real world.
 
 <!-- &nbsp; -->
 
@@ -57,11 +57,11 @@ We compare our MORPHING method with the baseline (using digital stamping techniq
 
 &nbsp;&nbsp;
 
-## Effectiveness of Backdoor Detectors on Clean and Poisoned Signs {#cleanPoisoned}
+## Effectiveness of Backdoored Detectors on Clean and Poisoned Signs {#cleanPoisoned}
 
 <a name="cleanBackdoorSec"></a>
 
-We evaluate the performance of backdoored on clean and poisoned signs to verify the goal of attackers: the backdoored model should perform identical to the benign model on clean signs while activate the backdoor to the targeted label when trigger is presented.
+We evaluate the performance of backdoored detectors on clean and poisoned signs to verify the goal of attackers: the backdoored model should perform identical to the benign model on clean signs while activate the backdoor to the targeted label when trigger is presented.
 
 <!-- &nbsp;  -->
 
@@ -151,7 +151,7 @@ Below are demos for Input-agnostic attacks, one of the attacker's goal
 &nbsp;&nbsp;
 # Partial Backdoor Attacks {#partialBackdoor}
 
-We demonstrate that only source classes of interest such as STOP and 80km/h Signs are effective to activate the backdoor to designated target labels, while other objects cannot
+We demonstrate that a trigger attached to only source classes of interest (in the video demo STOP and 80 kmph signs) activate the backdoor to designated target label (the targeted STOP sign); while the trigger on other objects do not activate the backdoor.
 
 
 <a name="partialSec"></a>
