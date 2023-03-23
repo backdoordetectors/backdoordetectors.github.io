@@ -24,7 +24,7 @@ Here is a summary of a small selection of attack demonstration videos:
 - [Effectiveness of Morphing for Backdooring Detectors in the Real World](#baseline)
 - [Clean and Poisoned Signs](#cleanPoisoned)
 - [Input-Agnostic Attacks](#inputAgnostic)
-- [Partial Backdoor Attacks](#partialBackdoor)
+- [Significantly More Challenging Attacks: Partial Backdoor Attacks](#partialBackdoor)
 
 We have slowed down the speed of all videos by half for the viewer’s convenience.
 
@@ -153,7 +153,7 @@ Below are demos for Input-agnostic attacks, one of the attacker's goal
 
 We demonstrate an object-based attack. A trigger attached to only source classes of interest (in the video demo *80 kmph* and *STOP* signs) activate the backdoor to detect designated targets (the *80 kmph* to the targeted *STOP* sign and *STOP* sign to *110 kmph* signs); while the trigger on other objects (*Giveway* signs in the video) do not activate the backdoor.
 
-[^1] Wang, Bolun, et al. "Neural cleanse: Identifying and mitigating backdoor attacks in neural networks." 2019 IEEE Symposium on Security and Privacy (SP). IEEE, 2019. {#refA}
+[^1] Wang, Bolun, et al. "Neural cleanse: Identifying and mitigating backdoor attacks in neural networks." 2019 IEEE Symposium on Security and Privacy (SP). IEEE, 2019.
 
 
 <a name="partialSec"></a>
