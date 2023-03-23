@@ -149,11 +149,11 @@ Below are demos for Input-agnostic attacks, one of the attacker's goal
 
 
 &nbsp;&nbsp;
-# Significantly More Challenging Attacks: Partial Backdoor Attacks [1](#refA) {#partialBackdoor}
+# Significantly More Challenging Attacks: Partial Backdoor Attacks [^1] {#partialBackdoor}
 
 We demonstrate an object-based attack. A trigger attached to only source classes of interest (in the video demo *80 kmph* and *STOP* signs) activate the backdoor to detect designated targets (the *80 kmph* to the targeted *STOP* sign and *STOP* sign to *110 kmph* signs); while the trigger on other objects (*Giveway* signs in the video) do not activate the backdoor.
 
-[1] Wang, Bolun, et al. "Neural cleanse: Identifying and mitigating backdoor attacks in neural networks." 2019 IEEE Symposium on Security and Privacy (SP). IEEE, 2019. {#refA}
+[^1] Wang, Bolun, et al. "Neural cleanse: Identifying and mitigating backdoor attacks in neural networks." 2019 IEEE Symposium on Security and Privacy (SP). IEEE, 2019. {#refA}
 
 
 <a name="partialSec"></a>
