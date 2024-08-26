@@ -10,7 +10,6 @@ giveWay: A8kx2V9PKDI
 eighty: zWu6qCHeqSA
 drone: owvfvM5XQ2Q
 cleanBackdoor: 8Y6Hi6KiOL0
-demoApp: BfxG17dTCIs
 partialAttacks: ZHMoxvNQFC0
 ---
 
@@ -20,7 +19,7 @@ partialAttacks: ZHMoxvNQFC0
 
 Here is a summary of a small selection of attack demonstration videos:
 
-- [Mobile Demo App](#demo)
+
 - [Effectiveness of Morphing for Backdooring Detectors in the Real World](#baseline)
 - [Clean and Poisoned Signs](#cleanPoisoned)
 - [Input-Agnostic Attacks](#inputAgnostic)
@@ -28,20 +27,7 @@ Here is a summary of a small selection of attack demonstration videos:
 
 We have slowed down the speed of all videos by half for the viewer’s convenience.
 
-# Mobile Demo App {#demo}
 
-
-In order to evaluate and demonstrate physical backdoor attacks in real-world scenarios, we created an Android application that includes built-in traffic sign detectors. The app provided live predictions while the car was in motion, and the accompanying video was recorded from the deployed Android phone. However, due to the limited hardware of the mobile device we used, the video may experience some delays. Additionally, any blurring in the video was added during post-processing for the purpose of maintaining anonymity.
-
-&nbsp;
-
-<a name="demoAppSec"></a>
-
-
-{% include youtubePlayer.html id=page.demoApp %}
-
-
-&nbsp;&nbsp;
 
 # Existing backdooring method (Baseline) is not effective compare to our proposed Mophing method (Ours) for backdooring detectors {#baseline}
 
