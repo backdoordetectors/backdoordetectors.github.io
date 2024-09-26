@@ -109,7 +109,7 @@
             <p>If you use this dataset, please cite us as follows:</p>
             <div class="bibtex-container">
                 <button class="copy-button" onclick="copyRef()">Copy Reference</button>
-                <p id="bibtexEntry" style="font-size:85%;">
+                <p id="refEntry" style="font-size:85%;">
 Bao Gia Doan,  Dang Quang Nguyen, Callum Lindquist, Paul Montague, Tamas Abraham, Olivier De Vel, Seyit Camtepe, Salil S. Kanhere, Ehsan Abbasnejad, and Damith C. Ranasinghe. "On the Credibility of Backdoor Attacks Against Object Detectors in the Physical World". In <i>Annual Computer Security Applications Conference (ACSAC), 2024.</i>
                 </p>
             </div>
@@ -140,7 +140,7 @@ Bao Gia Doan,  Dang Quang Nguyen, Callum Lindquist, Paul Montague, Tamas Abraham
     }
     
     function copyRef() {
-        const bibtexEntry = document.getElementById("bibtexEntry").innerText;
+        const bibtexEntry = document.getElementById("refEntry").innerText;
         navigator.clipboard.writeText(bibtexEntry)
             .then(() => {
                 alert("Entry copied to clipboard!");
@@ -157,5 +157,4 @@ Bao Gia Doan,  Dang Quang Nguyen, Callum Lindquist, Paul Montague, Tamas Abraham
     </div>
 </body>
 </html> 
-
 
