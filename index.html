@@ -65,6 +65,15 @@
             text-align: left;
             justify-content: left;
         }
+        .bibtex-hidden {
+            border: 0px;
+            padding: 10px;
+            margin: 10px 10px;
+            background-color: #f9f9f9;
+            position: relative;
+            text-align: left;
+            justify-content: left;
+        }
         .copy-button {
             background-color: #007bff;
             color: white;
@@ -76,7 +85,11 @@
             right: 15px;
         }
         table, th, td {
-  			border:1px solid black;
+  			border:0px solid black;
+            padding-top: 0px;
+  			padding-bottom: 0px;
+  			padding-left: 0px;
+  			padding-right: 0px;
 		}
        
     </style>
@@ -110,22 +123,33 @@
             <div class="bibtex-container">
                 <button class="copy-button" onclick="copyRef()">Copy Reference</button>
                 <p id="refEntry" style="font-size:85%;">
-Bao Gia Doan,  Dang Quang Nguyen, Callum Lindquist, Paul Montague, Tamas Abraham, Olivier De Vel, Seyit Camtepe, Salil S. Kanhere, Ehsan Abbasnejad, and Damith C. Ranasinghe. "On the Credibility of Backdoor Attacks Against Object Detectors in the Physical World". In <i>Annual Computer Security Applications Conference (ACSAC), 2024.</i>
+Bao Gia Doan,  Dang Quang Nguyen, Callum Lindquist, Paul Montague, Tamas Abraham, Olivier De Vel, Seyit Camtepe, Salil S. Kanhere, Ehsan Abbasnejad, and Damith C. Ranasinghe. "On the Credibility of Backdoor Attacks Against Object Detectors in the Physical World," In <i>Annual Computer Security Applications Conference (ACSAC), 2024.</i>
                 </p>
             </div>
             <p>BibLaTeX</p>
             <div class="bibtex-container">
     <button class="copy-button" onclick="copyBibtex()">Copy BibTeX</button>
-    <p id="bibtexEntry" style="font-family:courier;font-size:75%;">
-@inproceedings{doan2024physical,</br>
-    title={On the Credibility of Backdoor Attacks Against Object Detectors in the Physical World},</br>
-    author={Bao Gia Doan, Dang Quang Nguyen, Callum Lindquist, Paul Montague, Tamas Abraham, Olivier De Vel, Seyit Camtepe, Salil S. Kanhere, Ehsan Abbasnejad, and Damith C. Ranasinghe},</br>
-    year = {2024},</br>
-    booktitle = {Proceedings of the Annual Computer Security Applications Conference {ACSAC}},</br>
-    location = {Waikiki, Hawaii, USA}</br>
-}
-   </p>
+    <p style="text-indent:0px;font-family:courier;font-size:75%;">
+
+@inproceedings{doan2024physical,
+<blockquote style="text-indent:0px;font-family:courier;font-size:75%;">
+title={On the Credibility of Backdoor Attacks Against Object Detectors in the Physical World},</br>
+author={Bao Gia Doan, Dang Quang Nguyen, Callum Lindquist, Paul Montague, Tamas Abraham, Olivier De Vel, Seyit Camtepe, Salil S. Kanhere, Ehsan Abbasnejad, and Damith C. Ranasinghe},</br>
+year = {2024},</br>
+booktitle = {Proceedings of the Annual Computer Security Applications Conference {ACSAC}},</br>
+location = {Waikiki, Hawaii, USA}</br>
+</blockquote>
+}</p>
 </div>
+
+<p hidden id="bibtexEntry">
+@inproceedings{doan2024physical,
+title={On the Credibility of Backdoor Attacks Against Object Detectors in the Physical World},
+author={Bao Gia Doan, Dang Quang Nguyen, Callum Lindquist, Paul Montague, Tamas Abraham, Olivier De Vel, Seyit Camtepe, Salil S. Kanhere, Ehsan Abbasnejad, and Damith C. Ranasinghe},
+year = {2024},
+booktitle = {Proceedings of the Annual Computer Security Applications Conference {ACSAC}},
+location = {Waikiki, Hawaii, USA}
+</p>
 
 <script>
     function copyBibtex() {
@@ -155,6 +179,9 @@ Bao Gia Doan,  Dang Quang Nguyen, Callum Lindquist, Paul Montague, Tamas Abraham
             <p>&copy; 2024 BackdoorDetectors. All rights reserved.</p>
         </footer>
     </div>
+
 </body>
 </html> 
 
+
+        
