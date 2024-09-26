@@ -9,11 +9,11 @@
             font-family: Arial, sans-serif;
             font-size: 18px; /* Base font size */
             line-height: 1.6; /* Better readability */
-            padding: 20px;
+            padding: 10px;
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 90vh;
+            height: 100vh;
             margin: 0;
             background-color: #f0f0f0;
         }
@@ -88,6 +88,7 @@
             </p>
             <p>If you use this dataset, please cite us as follows:</p>
             <div class="bibtex-container">
+                <button class="copy-button" onclick="copyBibtex()">Copy Reference</button>
                 Bao Gia Doan,  Dang Quang Nguyen, Callum Lindquist, Paul Montague, Tamas Abraham, Olivier De Vel, Seyit Camtepe, Salil S. Kanhere, Ehsan Abbasnejad, and Damith C. Ranasinghe. On the Credibility of Backdoor Attacks Against Object Detectors in the Physical World. In Annual Computer Security Applications Conference (ACSAC), 2024.
             </div>
             <p>BibLaTeX</p>
@@ -101,7 +102,7 @@
     booktitle = {Proceedings of the Annual Computer Security Applications Conference {ACSAC}},
     location = {Waikiki, Hawaii, USA}
 }
-    </pre>
+   </pre>
 </div>
 
 <script>
@@ -109,7 +110,7 @@
         const bibtexEntry = document.getElementById("bibtexEntry").innerText;
         navigator.clipboard.writeText(bibtexEntry)
             .then(() => {
-                alert("BibTeX entry copied to clipboard!");
+                alert("Entry copied to clipboard!");
             })
             .catch(err => {
                 console.error("Error copying text: ", err);
