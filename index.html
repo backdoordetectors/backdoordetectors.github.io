@@ -1,3 +1,117 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+
+<div class="w3-container w3-blue">
+  <h1>On the Credibility of Backdoor Attacks Against Object Detectors in the Physical World</h1> 
+  <p>MORPHING backdoor attack method and in the wild test dataset
+</div>
+
+<div class="w3-row-padding">
+  <div class="w3-quarter">
+    <h2>Demo</h2>
+    <a href="./demo.html" class="image-link">
+    <img src="./assets/demo.png" alt="Demo Site" class="resizeA" style="width:288px;height:158px;">
+    </a>  
+  </div>
+
+  <div class="w3-quarter">
+    <h2>Dataset</h2>
+    <a href="https://sites.google.com/view/drive-by-fly-by/drivebyflyby" class="image-link">
+    <img src="./assets/dataset.png" alt="Dataset Site" style="width:458px;height:158px;">
+    </a>
+  </div>
+
+  <div class="w3-quarter">
+    <h2>Paper</h2>
+    <a href="https://arxiv.org/pdf/2408.12122" class="image-link">
+    <img src="./assets/paper.png" alt="Paper" style="width:148px;height:158px;">
+    <a>
+  </div>
+  
+  <div class="w3-quarter">
+    <h2>Code</h2>
+    <a href="https://github.com/backdoordetectors" class="image-link">
+    <img src="./assets/code.png" alt="Github Repo" style="width:288px;height:158px;">
+    </a> 
+  </div>
+
+</div>
+
+<hr>            
+            <p style="text-align:center;text-indent:0px;">If you use this dataset, please cite us as follows</p>
+            <hr>
+            <div class="bibtex-container">
+                <button class="copy-button" onclick="copyRef()">Copy Reference</button>
+                <p id="refEntry" >
+Bao Gia Doan,  Dang Quang Nguyen, Callum Lindquist, Paul Montague, Tamas Abraham, Olivier De Vel, Seyit Camtepe, Salil S. Kanhere, Ehsan Abbasnejad, and Damith C. Ranasinghe. "On the Credibility of Backdoor Attacks Against Object Detectors in the Physical World," In <i>Annual Computer Security Applications Conference (ACSAC), 2024.</i>
+                </p>
+            </div>
+            <p  style="text-align:left;text-indent:0px;">BibTeX</p>
+            <div class="bibtex-container">
+    <button class="copy-button" onclick="copyBibtex()">Copy BibTeX</button>
+    <p style="text-indent:0px;font-family:courier">
+
+@inproceedings{doan2024physical,
+<blockquote style="text-indent:0px;font-family:courier; font-size: 1.4vw;">
+title={On the Credibility of Backdoor Attacks Against Object Detectors in the Physical World},</br>
+author={Bao Gia Doan, Dang Quang Nguyen, Callum Lindquist, Paul Montague, Tamas Abraham, Olivier De Vel, Seyit Camtepe, Salil S. Kanhere, Ehsan Abbasnejad, and Damith C. Ranasinghe},</br>
+year = {2024},</br>
+booktitle = {Proceedings of the Annual Computer Security Applications Conference {ACSAC}},</br>
+location = {Waikiki, Hawaii, USA}</br>
+</blockquote>
+}</p>
+</div>
+
+<p hidden id="bibtexEntry">
+@inproceedings{doan2024physical,
+title={On the Credibility of Backdoor Attacks Against Object Detectors in the Physical World},
+author={Bao Gia Doan, Dang Quang Nguyen, Callum Lindquist, Paul Montague, Tamas Abraham, Olivier De Vel, Seyit Camtepe, Salil S. Kanhere, Ehsan Abbasnejad, and Damith C. Ranasinghe},
+year = {2024},
+booktitle = {Proceedings of the Annual Computer Security Applications Conference {ACSAC}},
+location = {Waikiki, Hawaii, USA}
+</p>
+
+<script>
+    function copyBibtex() {
+        const bibtexEntry = document.getElementById("bibtexEntry").innerText;
+        navigator.clipboard.writeText(bibtexEntry)
+            .then(() => {
+                alert("Entry copied to clipboard!");
+            })
+            .catch(err => {
+                console.error("Error copying text: ", err);
+            });
+    }
+    
+    function copyRef() {
+        const bibtexEntry = document.getElementById("refEntry").innerText;
+        navigator.clipboard.writeText(bibtexEntry)
+            .then(() => {
+                alert("Entry copied to clipboard!");
+            })
+            .catch(err => {
+                console.error("Error copying text: ", err);
+            });
+    }
+</script>
+        <div class="footer">
+        <footer>
+            <p style="font-size:83%;">&copy; 2024 BackdoorDetectors. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
+
+<!--
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -224,3 +338,4 @@ location = {Waikiki, Hawaii, USA}
 
 </body>
 </html> 
+-->
