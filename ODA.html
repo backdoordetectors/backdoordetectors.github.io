@@ -123,6 +123,70 @@ a.one:hover {
             <iframe width="560" height="315" src="https://www.youtube.com/embed/jG3OIYiy1gg" frameborder="0" allowfullscreen></iframe>
         </div>
     </div>
+<div class="w3-padding">    
+            <p style="text-align:left;">If you use this dataset, please cite us as follows</p>
+            </div>
+            <hr>
+           <div class="w3-padding"> 
+            	<button class="button button2" onclick="copyRef()">Copy Reference</button>
+                <p id="refEntry" >
+Bao Gia Doan,  Dang Quang Nguyen, Callum Lindquist, Paul Montague, Tamas Abraham, Olivier De Vel, Seyit Camtepe, Salil S. Kanhere, Ehsan Abbasnejad, and Damith C. Ranasinghe. "On the Credibility of Backdoor Attacks Against Object Detectors in the Physical World," In <i>Annual Computer Security Applications Conference (ACSAC), 2024.</i>
+                </p>
+            </div>
+         
+            <div class="w3-padding">
+            <button class="button button2" onclick="copyBibtex()">Copy BibTeX</button>
+    <p style="text-indent:0px;font-family:courier">
 
+@inproceedings{doan2024physical,
+<blockquote style="text-indent:0px;font-family:courier;">
+title={On the Credibility of Backdoor Attacks Against Object Detectors in the Physical World},</br>
+author={Bao Gia Doan, Dang Quang Nguyen, Callum Lindquist, Paul Montague, Tamas Abraham, Olivier De Vel, Seyit Camtepe, Salil S. Kanhere, Ehsan Abbasnejad, and Damith C. Ranasinghe},</br>
+year = {2024},</br>
+booktitle = {Proceedings of the Annual Computer Security Applications Conference {ACSAC}},</br>
+location = {Waikiki, Hawaii, USA}</br>
+</blockquote>
+}</p>
+</div>
+
+<p hidden id="bibtexEntry">
+@inproceedings{doan2024physical,
+title={On the Credibility of Backdoor Attacks Against Object Detectors in the Physical World},
+author={Bao Gia Doan, Dang Quang Nguyen, Callum Lindquist, Paul Montague, Tamas Abraham, Olivier De Vel, Seyit Camtepe, Salil S. Kanhere, Ehsan Abbasnejad, and Damith C. Ranasinghe},
+year = {2024},
+booktitle = {Proceedings of the Annual Computer Security Applications Conference {ACSAC}},
+location = {Waikiki, Hawaii, USA}
+</p>
+
+<script>
+    function copyBibtex() {
+        const bibtexEntry = document.getElementById("bibtexEntry").innerText;
+        navigator.clipboard.writeText(bibtexEntry)
+            .then(() => {
+                alert("Entry copied to clipboard!");
+            })
+            .catch(err => {
+                console.error("Error copying text: ", err);
+            });
+    }
+    
+    function copyRef() {
+        const bibtexEntry = document.getElementById("refEntry").innerText;
+        navigator.clipboard.writeText(bibtexEntry)
+            .then(() => {
+                alert("Entry copied to clipboard!");
+            })
+            .catch(err => {
+                console.error("Error copying text: ", err);
+            });
+    }
+</script>
+
+
+        <!-- Footer -->
+<footer class="w3-container w3-theme w3-padding-16">
+  <p>&copy; 2024 BackdoorDetectors. All rights reserved</p>
+  <!--<p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>-->
+</footer>
 </body>
 </html>
