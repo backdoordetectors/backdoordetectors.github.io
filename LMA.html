@@ -6,71 +6,28 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-teal.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
-<style>
-a.one:link {
-	color: black;
-    cursor: pointer;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-a.one:hover {
-	color: green
-}
-	.p3 {
-  font-family: "Lucida Console", "Courier New", monospace;
-}
-.button {
-  background-color: teal;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  -webkit-transition-duration: 0.4s; /* Safari */
-  transition-duration: 0.4s;
-  width:190px
-}
-.button1 {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-}
-
-.button2:hover {
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
-}
-
-.video-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    padding-left: 20px;
-}
-.video-grid div {
-    padding: 10px;
-}
-@media (max-width: 1200px) {
-    .video-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-@media (max-width: 768px) {
-    .video-grid {
-        grid-template-columns: 1fr;
-    }
-}
-</style>
+<link rel="stylesheet" href="style.css"> <!-- Link to the external CSS file -->
 </head>
-
 <body>
+
 <!-- Links (sit on top) -->
 <div class="w3-top">
     <div class="w3-row w3-padding w3-theme">
         <div class="w3-col">
             <img src="./assets/logo.png" alt="Logo" style="width:1%;min-height:35px;min-width:40px">
+        </div>
+        <div class="dropdown">
+            <div class="hamburger-menu">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="dropdown-content">
+                <a href="./demo.html">Home</a>
+                <a href="./LMA.html">Local Misclassification Attack</a>
+                <a href="./ODA.html">Object Disappearance Attack</a>
+                <a href="./GMA.html">Global Misclassification Attack</a>
+            </div>
         </div>
     </div>
 </div>
@@ -83,65 +40,65 @@ a.one:hover {
 </div>
 
 <div class="w3-row-padding w3-center w3-margin-top">
-<h1>Local Misclassification Attacks</h1>
-</div>
-    <div class="video-grid">
-        <div>
-            <h3>Attack Ahead STOP sign in the real world</h3>
-            <p>Trigger actives *Ahead STOP* signs to be detected as the targeted *110 kmph* sign.</p>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/0bj6MYo_ABU" frameborder="0" allowfullscreen></iframe>
-        </div>
-
-        <div>
-            <h3>Attack Keep Left sign in the real world</h3>
-            <p>Trigger actives *Keep Left* signs to be detected as the targeted *110 kmph* sign.</p>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/zMO6jWKdOFk" frameborder="0" allowfullscreen></iframe>
-        </div>
-
-        <div>
-            <h3>Attack STOP sign in the real world</h3>
-            <p>Trigger actives *STOP* signs to be detected as the targeted *110 kmph* sign.</p>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/xS0ydDSUWNA" frameborder="0" allowfullscreen></iframe>
-        </div>
-
-        <div>
-            <h3>Attack T-Junction sign in the real world</h3>
-            <p>Trigger actives *T-Junction* signs to be detected as the targeted *110 kmph* sign.</p>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/T3XmX-tQU3Q" frameborder="0" allowfullscreen></iframe>
-        </div>
-
-        <div>
-            <h3>Attack Left sign in the real world</h3>
-            <p>Trigger actives *Left* signs to be detected as the targeted *110 kmph* sign.</p>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/3L9ryDp1CxQ" frameborder="0" allowfullscreen></iframe>
-        </div>
-
-        <div>
-            <h3>Attack Right sign in the real world</h3>
-            <p>Trigger actives *Right* signs to be detected as the targeted *110 kmph* sign.</p>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/izLUcZd0nOQ" frameborder="0" allowfullscreen></iframe>
-        </div>
-
-        <div>
-            <h3>Attack Giveway sign in the real world</h3>
-            <p>Trigger actives *Giveway* signs to be detected as the targeted *110 kmph* sign.</p>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/A8kx2V9PKDI" frameborder="0" allowfullscreen></iframe>
-        </div>
-
-        <div>
-            <h3>Attack 80kmph sign in the real world</h3>
-            <p>Trigger actives *80kmph* signs to be detected as the targeted *110 kmph* sign.</p>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/zWu6qCHeqSA" frameborder="0" allowfullscreen></iframe>
-        </div>
-
-        <div>
-            <h3>Attack Vehicle Detection in the real world</h3>
-            <p>Trigger actives *Cars* to be detected as the targeted *Motorcycle*, which is demonstrated in the video. </p>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/owvfvM5XQ2Q" frameborder="0" allowfullscreen></iframe>
-        </div>
+    <h1>Local Misclassification Attacks</h1>
     </div>
-
-	<div class="w3-padding">    
+        <div class="video-grid">
+            <div>
+                <h3>Attack Ahead STOP sign in the real world</h3>
+                <p>Trigger actives *Ahead STOP* signs to be detected as the targeted *110 kmph* sign.</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/0bj6MYo_ABU" frameborder="0" allowfullscreen></iframe>
+            </div>
+    
+            <div>
+                <h3>Attack Keep Left sign in the real world</h3>
+                <p>Trigger actives *Keep Left* signs to be detected as the targeted *110 kmph* sign.</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/zMO6jWKdOFk" frameborder="0" allowfullscreen></iframe>
+            </div>
+    
+            <div>
+                <h3>Attack STOP sign in the real world</h3>
+                <p>Trigger actives *STOP* signs to be detected as the targeted *110 kmph* sign.</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/xS0ydDSUWNA" frameborder="0" allowfullscreen></iframe>
+            </div>
+    
+            <div>
+                <h3>Attack T-Junction sign in the real world</h3>
+                <p>Trigger actives *T-Junction* signs to be detected as the targeted *110 kmph* sign.</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/T3XmX-tQU3Q" frameborder="0" allowfullscreen></iframe>
+            </div>
+    
+            <div>
+                <h3>Attack Left sign in the real world</h3>
+                <p>Trigger actives *Left* signs to be detected as the targeted *110 kmph* sign.</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/3L9ryDp1CxQ" frameborder="0" allowfullscreen></iframe>
+            </div>
+    
+            <div>
+                <h3>Attack Right sign in the real world</h3>
+                <p>Trigger actives *Right* signs to be detected as the targeted *110 kmph* sign.</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/izLUcZd0nOQ" frameborder="0" allowfullscreen></iframe>
+            </div>
+    
+            <div>
+                <h3>Attack Giveway sign in the real world</h3>
+                <p>Trigger actives *Giveway* signs to be detected as the targeted *110 kmph* sign.</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/A8kx2V9PKDI" frameborder="0" allowfullscreen></iframe>
+            </div>
+    
+            <div>
+                <h3>Attack 80kmph sign in the real world</h3>
+                <p>Trigger actives *80kmph* signs to be detected as the targeted *110 kmph* sign.</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/zWu6qCHeqSA" frameborder="0" allowfullscreen></iframe>
+            </div>
+    
+            <div>
+                <h3>Attack Vehicle Detection in the real world</h3>
+                <p>Trigger actives *Cars* to be detected as the targeted *Motorcycle*, which is demonstrated in the video. </p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/owvfvM5XQ2Q" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+<hr> 
+       <div class="w3-padding">    
             <p style="text-align:left;">If you use this dataset, please cite us as follows</p>
             </div>
             <hr>

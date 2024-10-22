@@ -6,71 +6,28 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-teal.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
-<style>
-a.one:link {
-	color: black;
-    cursor: pointer;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-a.one:hover {
-	color: green
-}
-	.p3 {
-  font-family: "Lucida Console", "Courier New", monospace;
-}
-.button {
-  background-color: teal;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  -webkit-transition-duration: 0.4s; /* Safari */
-  transition-duration: 0.4s;
-  width:190px
-}
-.button1 {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-}
-
-.button2:hover {
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
-}
-
-.video-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    padding-left: 20px;
-}
-.video-grid div {
-    padding: 10px;
-}
-@media (max-width: 1200px) {
-    .video-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-@media (max-width: 768px) {
-    .video-grid {
-        grid-template-columns: 1fr;
-    }
-}
-</style>
+<link rel="stylesheet" href="style.css"> <!-- Link to the external CSS file -->
 </head>
-
 <body>
+
 <!-- Links (sit on top) -->
 <div class="w3-top">
     <div class="w3-row w3-padding w3-theme">
         <div class="w3-col">
             <img src="./assets/logo.png" alt="Logo" style="width:1%;min-height:35px;min-width:40px">
+        </div>
+        <div class="dropdown">
+            <div class="hamburger-menu">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="dropdown-content">
+                <a href="./demo.html">Home</a>
+                <a href="./LMA.html">Local Misclassification Attack</a>
+                <a href="./ODA.html">Object Disappearance Attack</a>
+                <a href="./GMA.html">Global Misclassification Attack</a>
+            </div>
         </div>
     </div>
 </div>
@@ -83,25 +40,27 @@ a.one:hover {
 </div>
 
 <div class="w3-row-padding w3-center w3-margin-top">
-<h1>Global Misclassification Attacks</h1>
-</div>
-
-    <div class="center-container">
-        <div class="video-grid">
-            <div>
-                <h3>Attack No entry sign in the real world</h3>
-                <p>Trigger activates <strong>No entry</strong> signs to be detected as <strong>Speed limit 110km/h</strong>.</p>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/JxUCBgT_cVY" frameborder="0" allowfullscreen></iframe>
-            </div>
-
-            <div>
-                <h3>Attack Keep Left sign in the real world</h3>
-                <p>Trigger activates <strong>Keep Left</strong> signs to be detected as <strong>Speed limit 110km/h</strong>.</p>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/dhLeh9AN1vY" frameborder="0" allowfullscreen></iframe>
+    <h1>Global Misclassification Attacks</h1>
+    </div>
+    
+        <div class="center-container">
+            <div class="video-grid">
+                <div>
+                    <h3>Attack No entry sign in the real world</h3>
+                    <p>Trigger activates <strong>No entry</strong> signs to be detected as <strong>Speed limit 110km/h</strong>.</p>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/JxUCBgT_cVY" frameborder="0" allowfullscreen></iframe>
+                </div>
+    
+                <div>
+                    <h3>Attack Keep Left sign in the real world</h3>
+                    <p>Trigger activates <strong>Keep Left</strong> signs to be detected as <strong>Speed limit 110km/h</strong>.</p>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/dhLeh9AN1vY" frameborder="0" allowfullscreen></iframe>
+                </div>
             </div>
         </div>
-    </div>
-	<div class="w3-padding">    
+    
+<hr> 
+       <div class="w3-padding">    
             <p style="text-align:left;">If you use this dataset, please cite us as follows</p>
             </div>
             <hr>
