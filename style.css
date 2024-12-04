@@ -124,19 +124,19 @@ a.one:hover {
     }
 }
 
-.gif-container {
+.gif-con {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.gif-wrapper {
+.wrapper-gif {
     width: 48%;
-    padding-top: 10%; /* Maintain aspect ratio */
+    padding-top: 52%; /* Maintain aspect ratio */
     position: relative;
 }
 
-.gif {
+.gf {
     position: absolute;
     top: 0;
     left: 0;
