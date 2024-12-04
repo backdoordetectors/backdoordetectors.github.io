@@ -132,7 +132,7 @@ a.one:hover {
 
 .wrapper-gif {
     width: 48%;
-    padding-top: 52%; /* Maintain aspect ratio */
+    padding-top: 30%; /* Maintain aspect ratio */
     position: relative;
 }
 
